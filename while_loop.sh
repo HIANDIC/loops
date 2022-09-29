@@ -4,6 +4,7 @@
 NUMBER=1
 
 # while loop is defined. It will work until the number variable is 10
+# if condition is True, loop is executed
 while [[ $NUMBER -le 10 ]]
 do
     echo $NUMBER
