@@ -7,6 +7,7 @@ until [[ $NUMBER -gt 10 ]]
 do
     echo $NUMBER
     ((NUMBER++))
+    sleep 1
 done
 
 echo
